@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "saena": {
+      "args": [
+        "mcp"
+      ],
+      "command": "saena",
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,5 @@
+[mcp_servers.saena]
+command = "saena"
+args = ["mcp"]
+enabled = true
+startup_timeout_sec = 10

@@ -1,0 +1,29 @@
+[package]
+name = "saena"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false
+description = "A desk. One tree. Claim work. Complete a deed. Remember."
+
+[[bin]]
+name = "saena"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1"
+hex = "0.4"
+heed = { git = "https://github.com/meilisearch/heed", tag = "v0.12.4" }
+hmac = "0.12"
+milli = { git = "https://github.com/meilisearch/milli", tag = "v0.41.3" }
+rand = "0.8"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+thiserror = "2"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.dev]
+opt-level = 1

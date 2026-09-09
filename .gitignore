@@ -1,0 +1,11 @@
+/target
+/saena
+/_build
+/deps
+/az5
+/tmp
+/priv
+/native
+*.ez
+erl_crash.dump
+
